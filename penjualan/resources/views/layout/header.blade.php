@@ -1,1 +1,1 @@
-<h1>Layout Dengan Blade Template Laravel</h1>
+<h1 style="background-color:DodgerBlue;">Layout Dengan Blade Template Laravel</h1>

@@ -4,7 +4,6 @@
 
 @section('sidebar')
 @parent
-<li>PHP</li>
 @endsection
 
 @section('content')
