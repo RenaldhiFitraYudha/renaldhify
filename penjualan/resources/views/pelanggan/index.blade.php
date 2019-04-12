@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+<title>Pelanggan</title>
 </head>
 <body>
-<h1>Data Produk</h1>
+<h1>Data Pelanggan</h1>
 <table border="1">
 <thead>
-<tr>No</tr>
-<tr>Nama</tr>
+<tr>
+</tr>
 </thead>
 <tbody>
-@foreach ($produk as $i => $v)
+<th>No</th>
+<th>Nama</th>
+@foreach ($pelanggan as $i => $v)
 <tr>
 <td>{{ $i+1 }}</td>
 <td>{{ $v }}</td>
