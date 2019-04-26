@@ -50,3 +50,9 @@ return view('konten.halaman',compact('title','konten'));
 Route::get('/pelanggan', 'pelangganController@index');
 
 Route::resource('produk','produkController1');
+
+Route::get('/store', 'produkController1@store');
+
+Route::get('/update', 'produkController1@update');
+
+Route::get('/destroy', 'produkController1@destroy');

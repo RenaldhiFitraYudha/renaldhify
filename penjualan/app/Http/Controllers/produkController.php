@@ -1,13 +1,14 @@
 <?php
-
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use DB;
 class produkController extends Controller
 {
 public function index()
 {
-	$produk = 'Aqua 400ML';
-	return view ('produk/index', compact('produk'));
+$produk = DB::table('produks')->get();
+return view('produk/index',compact('produk'));
+}
 }
 public function show()
 {
